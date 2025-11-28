@@ -244,3 +244,36 @@ ul p{
 }
 
 /* ===== Navbar Container ===== */
+/* Makeup Navbar Only */
+.makeup-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffd6e7;
+    padding: 12px 25px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b1246b;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #b1246b;
+    border-bottom: 2px solid #b1246b;
+}
